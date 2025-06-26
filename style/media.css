@@ -1,0 +1,38 @@
+@media (max-width: 1400px) and (min-width: 1200px) {
+    #about{  
+        #left{
+            *{
+                width: 100%;
+            }
+
+            #img_container{
+                    width: 100%;
+
+                    img{
+                        width: 80%;
+                    }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    #about{  
+        grid-template-columns: 1fr;
+
+        #left{
+            *{
+                width: 550px;
+            }    
+        }
+        
+        #right{
+            display: grid;
+            justify-content: center;
+
+            p{
+                width: 810px;
+            }
+        }
+    }
+}
